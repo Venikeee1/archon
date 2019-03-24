@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="css/common.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="js/highlight/styles/a11y-dark.css" rel="stylesheet" type="text/css" media="all"/>
+</head>
+<body data-smooth-scroll-offset="77">
+<main class="main-container">
+    <section class="text-center space--xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-8 mx-auto mb-5">
+                    <h1 class="primary-title primary-color">Build better Dapps easier using Archon Cloud</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="text-center space--xs mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="text-block"><i class="icon icon--lg icon-Mail-3 color--dark"></i>
+                        <h3 class="feature-title primary-color">Real Time Decentralized Web Browsing</h3>
+                        <p> Javascript Implementation to directly view decentralized assets in the browser without
+                            requiring any installation. No plugins, addons, or apps required. </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="text-block"><i class="icon icon--lg icon-Air-Balloon color--dark"></i>
+                        <h3 class="feature-title primary-color">Secure Big Data Archives</h3>
+                        <p> High fault tolerance archival designed for a trustless byzantine fault tolerance environment
+                            using innovations in erasure encoding. Capable of storing big data for long periods of time,
+                            perfect for use in machine learning. </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="text-block"><i class="icon icon--lg icon-Bacteria color--dark"></i>
+                        <h3 class="feature-title primary-color">Cross-chain File System</h3>
+                        <p> Blockchain agnostic integration across multiple blockchain protocols to serve as a native
+                            file storage system. </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="text-block"><i class="icon icon--lg icon-Fingerprint-2 color--dark"></i>
+                        <h3 class="feature-title primary-color">Add: low latency downloads. </h3>
+                        <p> Decentralized exchange/ decentralized games </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="text-center space--xs mb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-8 mx-auto ">
+                    <h2 class="secondary-title primary-color">Makes Development Easy</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mb-5">
+        <div class="container">
+            <div class="row">
+                <ul class="col-lg-4 code__items">
+                    <li class="code__item">
+                        <button class="tab__title code__button code__button--active p-3 px-xl-4 py-xl-3">
+                            <span >How to Upload/Download with Website Interface</span>
+                        </button>
+                        <div class="code-mobile code-mobile--active">
+                            <pre><code>// Uploading file(s)
+https://gateway.archon.cloud/assets/upload.html
+
+// Downloading file
+https://gateway.archon.cloud/assets/download.html
+                            </code></pre>
+                        </div>
+                    </li>
+                    <li class="code__item">
+                        <button class="tab__title code__button p-3 px-xl-4 py-xl-3">
+                            <span >How to build a decentralized website</span>
+                        </button>
+                        <div class="code-mobile">
+                            <pre><code>// Upload files and get Archon URLs from here
+https://gateway.archon.cloud/assets/upload.html
+
+// In HTML, import the archon.js
+&lt;script type=”text/javascript” src=”https://static.archon.cloud/assets/archon.js”&gt;&lt;/script&gt;
+
+// Next, use the archon-src URL in the HTML Elements
+&lt;img archon-src=”arc://username.af/pics/dog.jpeg”></code></pre>
+                        </div>
+                    </li>
+                    <li class="code__item">
+                        <button class="tab__title code__button p-3 px-xl-4 py-xl-3">
+                            <span >How to Upload/Download with Javascript API&nbsp;</span>
+                        </button>
+                         <div class="code-mobile">
+                            <pre><code>// For Uploading
+// Import the Archon Upload library
+// Download from https://static.archon.cloud/assets/archonUpload.js
+import “archonUpload”;
+
+// Use the Archon Cloud Javascript API
+archonUpload.upload(file, cloudFilepath, myPrivateKeyFile);
+
+// For Downloading
+// Import the Archon Download library
+// Download from https://static.archon.cloud/assets/archonDownload.js
+import “archonDownload”;
+
+// Use the Archon Cloud Javascript API
+archonDownload.download(archonUrl, myPrivateKeyFileOrSessionKey);</code></pre>
+                        </div>
+                    </li>
+                    <li class="code__item">
+                        <button class="tab__title code__button p-3 px-xl-4 py-xl-3">
+                            <span >How to Upload/Download with C++ API&nbsp;&nbsp;</span>
+                        </button>
+                         <div class="code-mobile">
+                            <pre><code>// Install Archon Cloud
+git clone https://github.com/archoncloud/archoncloud-opensource
+cd archoncloud-opensource
+Make
+make install
+
+// in C++ source file:
+
+// Import Archon Cloud:
+#include "ArchonClient.cpp"
+
+// Use the Archon Cloud C++ API
+archon::uploadFile(sourceFilepath, cloudFilepath, myPrivateKeyFile);
+archon::downloadFile(archonUrl, destinationFilepath,</code></pre>
+                        </div>
+                    </li>
+                    <li class="code__item">
+                        <button class="tab__title code__button p-3 px-xl-4 py-xl-3">
+                            <span >How to Upload/Download with C++ binary</span>
+                        </button>
+                         <div class="code-mobile">
+                            <pre><code>// Compile Archon Cloud
+git clone https://github.com/archoncloud/archoncloud-opensource
+cd archoncloud-opensource
+Make
+
+// Use Archon Cloud
+./archon upload &lt;file> &lt;my_archon_private_key_file>
+./archon download &lt;archon_url> &lt;my_archon_private_key_file_OR_session_key_file></code></pre>
+                        </div>
+                    </li>
+                    <li class="code__item">
+                        <button class="tab__title code__button p-3 px-xl-4 py-xl-3">
+                            <span >How to Mine on Archon</span>
+                        </button>
+                         <div class="code-mobile">
+                            <pre><code>// Compile Archon Cloud
+git clone https://github.com/archoncloud/archoncloud-opensource
+cd archoncloud-opensource
+Make
+
+// Start mining on port 8000
+./archon mine 8000
+// This will prompt an interactive terminal to set your mining settings
+</code></pre>
+                        </div>
+                    </li>
+                </ul>
+                <div class="code__body col-lg-8">
+                    <div class="code__inner">
+                        <pre class="code__script code__script--active">
+                            <code>
+// Uploading file(s)
+https://gateway.archon.cloud/assets/upload.html
+
+// Downloading file
+    https://gateway.archon.cloud/assets/download.html
+                            </code>
+                        </pre>
+                        <pre class="code__script">
+                            <code>
+// Upload files and get Archon URLs from here
+https://gateway.archon.cloud/assets/upload.html
+
+// In HTML, import the archon.js
+&lt;script type=”text/javascript” src=”https://static.archon.cloud/assets/archon.js”&gt;&lt;/script&gt;
+
+// Next, use the archon-src URL in the HTML Elements
+&lt;img archon-src=”arc://username.af/pics/dog.jpeg”>
+
+                            </code>
+                        </pre>
+                        <pre class="code__script">
+                            <code>
+// For Uploading
+// Import the Archon Upload library
+// Download from https://static.archon.cloud/assets/archonUpload.js
+import “archonUpload”;
+
+// Use the Archon Cloud Javascript API
+archonUpload.upload(file, cloudFilepath, myPrivateKeyFile);
+
+// For Downloading
+// Import the Archon Download library
+// Download from https://static.archon.cloud/assets/archonDownload.js
+import “archonDownload”;
+
+// Use the Archon Cloud Javascript API
+archonDownload.download(archonUrl, myPrivateKeyFileOrSessionKey);
+
+                            </code>
+                        </pre>
+                        <pre class="code__script">
+                            <code>
+// Install Archon Cloud
+git clone https://github.com/archoncloud/archoncloud-opensource
+cd archoncloud-opensource
+Make
+make install
+
+// in C++ source file:
+
+// Import Archon Cloud:
+#include "ArchonClient.cpp"
+
+// Use the Archon Cloud C++ API
+archon::uploadFile(sourceFilepath, cloudFilepath, myPrivateKeyFile);
+archon::downloadFile(archonUrl, destinationFilepath,
+
+                            </code>
+                        </pre>
+                        <pre class="code__script">
+                            <code>
+// Compile Archon Cloud
+git clone https://github.com/archoncloud/archoncloud-opensource
+cd archoncloud-opensource
+Make
+
+// Use Archon Cloud
+./archon upload &lt;file> &lt;my_archon_private_key_file>
+./archon download &lt;archon_url> &lt;my_archon_private_key_file_OR_session_key_file>
+
+
+                            </code>
+                        </pre>
+                        <pre class="code__script">
+                            <code>
+// Compile Archon Cloud
+git clone https://github.com/archoncloud/archoncloud-opensource
+cd archoncloud-opensource
+Make
+
+// Start mining on port 8000
+./archon mine 8000
+// This will prompt an interactive terminal to set your mining settings
+
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="text-center space--xs mb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-12 mx-auto">
+                    <h2 class="secondary-title primary-color">The features your application needs</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="feature feature-2 boxed boxed--border">
+                        <i class="icon icon-Clock-Back color--primary"></i>
+                        <div class="feature__body">
+                            <p> Save time with a multitude of styled components designed to showcase your content </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature feature-2 boxed boxed--border">
+                        <i class="icon icon-Clock-Back color--primary"></i>
+                        <div class="feature__body">
+                            <p> Save time with a multitude of styled components designed to showcase your content </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature feature-2 boxed boxed--border">
+                        <i class="icon icon-Clock-Back color--primary"></i>
+                        <div class="feature__body">
+                            <p> Save time with a multitude of styled components designed to showcase your content </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature feature-2 boxed boxed--border">
+                        <i class="icon icon-Clock-Back color--primary"></i>
+                        <div class="feature__body">
+                            <p> Save time with a multitude of styled components designed to showcase your content </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature feature-2 boxed boxed--border">
+                        <i class="icon icon-Duplicate-Window color--primary"></i>
+                        <div class="feature__body">
+                            <p> Construct mockups or production-ready pages in-browser with Variant Page Builder </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature feature-2 boxed boxed--border">
+                        <i class="icon icon-Life-Jacket color--primary"></i>
+                        <div class="feature__body">
+                            <p> Take comfort in 6 months included support with a dedicated support forum </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mt-4">
+                <a href="" class="button button--primary-solid">Visit GitHub</a>
+            </div>
+        </div>
+    </section>
+    <section class="text-center space--xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-8 mx-auto mb-2">
+                    <h2 class="secondary-title primary-color">Request an Archon Private Key</h2>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <a href="" class="button button--primary-solid">Join Testnet</a>
+            </div>
+        </div>
+    </section>
+    <section class="switchable">
+        <div class="container">
+            <p></p>
+
+        </div>
+    </section>
+</main>
+<script charset="UTF-8" src="js/highlight.pack.js"></script>
+<script src="js/cummon.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+</body>
+
+</html>
